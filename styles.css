@@ -297,6 +297,20 @@ h3 {
   margin: 0;
 }
 
+.source-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
 .action-panel {
   margin-top: 44px;
   padding: 28px;
